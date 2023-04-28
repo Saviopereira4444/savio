@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colours</title>
+<style>
+body{
+    background-color: antiquewhite;
+
+}
+h1{
+    color: whitesmoke;
+    background-color: rgb(87, 114, 87);
+   font-size: 30
+   ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    border: 5px solid black;
+    padding: 10px; 
+    margin: 10px;
+    border-width: 0px 0px 10px 10px;
+
+
+}
+h2{
+    color: #FAF8F1;
+    background-color:#064364;
+    background-color: red;
+    font-family: 'Sedgwick Ave Display', cursive;
+    border: 5px solid black;
+    border-width: 0px 0px 10px 10px;
+    margin: 10px;
+    padding:10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    
+    gap: 30px;
+    
+}
+.first{
+    grid-column: span 2;
+    background-color: aqua;
+}
+.card{
+    background-color: blue;
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <center><h1>Hello</h1></center>
+    <center><h2>World</h2></center>
+    <div></div>
+
+    <div class="grid-container">
+        <div class="first">
+            <center><p>Hi there</p></center>
+        </div>
+        <div class="card"><center></center></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+
+    </div>
+
+</body>
+</html>
